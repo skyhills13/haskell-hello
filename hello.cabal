@@ -16,7 +16,7 @@ executable hello
   hs-source-dirs:      exe
   main-is:             Main.hs
   default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       base >= 4.7 && < 5, hello
 
 library hello
   hs-source-dirs:      src
